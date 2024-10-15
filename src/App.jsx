@@ -5,8 +5,8 @@ export default function App() {
   return (
     <>
       <div className="font-inter bg-gray-900">
-        <NavBar />
-        <section className="px-6 py-20">
+        <section className="h-screen min-h-600">
+          <NavBar />
           <div className="flex justify-around ">
             <div className="flex flex-col justify-center max-w-xl">
               <h1 className="text-text-color-white text-5xl font-bold">
@@ -72,7 +72,7 @@ export default function App() {
             </div>
             <div className="gradient-mask-l-[transparent,rgba(0,0,0,.5)_100px,rgba(0,0,0,0.9)_50%] rounded-full">
               <img
-                src="/img/rasmus.jpg"
+                src="/img/me-nobg.png"
                 alt="image of rasmus"
                 className="w-128 rounded-full"
               />
